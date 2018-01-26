@@ -9,8 +9,10 @@ exports[`custom-selectors.css 1`] = `
   text-decoration:underline;
 }
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-@custom-selector :--button button, .button;
-@custom-selector :--enter :hover, :focus;
+@custom-selector :--button button,
+  .button;
+@custom-selector :--enter :hover,
+  :focus;
 
 :--button {
   display: inline-block;

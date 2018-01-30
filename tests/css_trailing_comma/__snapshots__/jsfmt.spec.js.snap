@@ -1,6 +1,37 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`trailing.css 1`] = `
+exports[`map.css 1`] = `
+$map: ('Helvetica', 'Arial', sans-serif,);
+$map: (
+    small: 767px,
+    medium: 992px,
+    large: 1200px,
+);
+$map: (
+    'medium': (min-width: 800px),
+    'large': (min-width: 1000px),
+    'huge': (min-width: 1200px),
+);
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+$map: (
+  "Helvetica",
+  "Arial",
+  sans-serif
+);
+$map: (
+  small: 767px,
+  medium: 992px,
+  large: 1200px
+);
+$map: (
+  "medium": (min-width: 800px),
+  "large": (min-width: 1000px),
+  "huge": (min-width: 1200px)
+);
+
+`;
+
+exports[`selector_list.css 1`] = `
 asdasldaskdhjkashdahsdkjahskdjhakjsdkjahsdhkasdhkajsdhakjsdhkajsdhjkahskjdkjahsjkdjkakjsdm,
 asdasldaskdhjkashdahsdkjahskdjhakjsdkjahsdhkasdhkajsdhakjsdhkajsdhjkahskjdkjahsjkdjkakjsdm, {
 
